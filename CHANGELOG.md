@@ -9,6 +9,7 @@ e o projeto adota o [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 
 ### Added
 - Guia de contribuição (`CONTRIBUTING.md`).
+- Código de conduta (`CODE_OF_CONDUCT.md`), baseado no Contributor Covenant 2.1.
 
 ### Planejado
 - Agente Revisor (QA) que valida o entregável antes de mover o card para DONE

@@ -18,8 +18,9 @@ ambiente, o que esperamos de uma mudança e como abrir um pull request.
 
 ## Código de conduta
 
-Seja respeitoso e construtivo. Críticas são sobre o código, nunca sobre as
-pessoas. Comportamento abusivo não é tolerado.
+Este projeto adota o [Contributor Covenant](CODE_OF_CONDUCT.md). Ao
+participar, você concorda em seguir seus termos. Críticas são sobre o código,
+nunca sobre as pessoas.
 
 ## Como posso contribuir?
 
