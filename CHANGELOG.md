@@ -7,6 +7,9 @@ e o projeto adota o [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 
 ## [Unreleased]
 
+### Added
+- Guia de contribuição (`CONTRIBUTING.md`).
+
 ### Planejado
 - Agente Revisor (QA) que valida o entregável antes de mover o card para DONE
 - Progresso em tempo real no Discord a partir dos eventos do Team

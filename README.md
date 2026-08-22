@@ -229,11 +229,7 @@ Os testes não acessam a rede: `requests` é simulado e as variáveis de ambient
 
 ## 🤝 Contribuindo
 
-1. Faça um fork e crie uma branch: `git checkout -b feat/minha-ideia`
-2. Rode os testes: `uv run pytest -q`
-3. Abra um pull request descrevendo a mudança
-
-Use commits no padrão [Conventional Commits](https://www.conventionalcommits.org/pt-br/) (`feat:`, `fix:`, `docs:`…).
+Contribuições são bem-vindas! Leia o [guia de contribuição](CONTRIBUTING.md) — ele cobre a preparação do ambiente, os padrões de código, os testes, o formato dos commits ([Conventional Commits](https://www.conventionalcommits.org/pt-br/)) e como adicionar um novo agente ou ferramenta.
 
 ## 📄 Licença
 
