@@ -1,0 +1,78 @@
+name: 🐛 Relatório de bug
+description: Algo não funcionou como esperado
+title: "[bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por reportar! Preencha o máximo que puder.
+        **Nunca cole o conteúdo do `.env`, tokens ou chaves de API.** Se um traceback contiver uma URL com `key=`/`token=`, remova-a antes de colar.
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrição
+      description: O que aconteceu e o que você esperava que acontecesse.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passos para reproduzir
+      description: A mensagem exata enviada ao bot (texto, nota de voz ou imagem) e o contexto.
+      placeholder: |
+        1. Mencionei o bot com "@bot crie ..."
+        2. Anexei uma imagem .png com ...
+        3. O bot respondeu ...
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Área afetada
+      multiple: true
+      options:
+        - Bot Discord (main.py)
+        - Agentes / Team (roteamento, instruções)
+        - Ferramentas do Trello
+        - Entregáveis (save_deliverable / anexos)
+        - Voz (Whisper / edge-tts)
+        - Imagem (Vision Analyst)
+        - Memória de sessão
+        - Documentação
+        - Outro
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log do terminal
+      description: Saída relevante de `uv run python main.py` (sem credenciais).
+      render: shell
+  - type: input
+    id: version
+    attributes:
+      label: Versão / commit
+      placeholder: "v0.1.0 ou hash do commit"
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Modelo (GROQ_MODEL)
+      placeholder: "qwen/qwen3.6-27b"
+  - type: input
+    id: environment
+    attributes:
+      label: Ambiente
+      placeholder: "Python 3.12, Windows 11 + WSL2, uv 0.x"
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Procurei issues existentes sobre o mesmo problema
+          required: true
+        - label: Removi credenciais e URLs com `key=`/`token=` dos logs
+          required: true
+        - label: Rodei `uv run pytest -q` e os testes passam

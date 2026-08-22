@@ -24,9 +24,9 @@ nunca sobre as pessoas.
 
 ## Como posso contribuir?
 
-- **Reportando bugs** — abra uma issue com: o que você fez (mensagem enviada
-  ao bot, anexos), o que esperava, o que aconteceu e o trecho relevante do log
-  do terminal. **Nunca cole o `.env` nem tokens.**
+- **Reportando bugs** — abra uma issue usando o template *Relatório de bug*:
+  o que você fez (mensagem enviada ao bot, anexos), o que esperava, o que
+  aconteceu e o trecho relevante do log. **Nunca cole o `.env` nem tokens.**
 - **Sugerindo melhorias** — descreva o problema que a ideia resolve antes da
   solução. Veja o [roadmap no README](README.md#-roadmap) e a seção
   *Unreleased* do [CHANGELOG](CHANGELOG.md) para ideias já mapeadas.
@@ -120,8 +120,8 @@ Exemplos: `feat(agents): adiciona agente revisor`, `fix(tools): trata lista inex
 
 - Um PR resolve **uma** coisa. Mudanças grandes: abra uma issue antes para
   alinhar o desenho.
-- Descreva **o quê** e **por quê**, como testou (comando e, se for o caso,
-  print da conversa no Discord) e o que fica de fora.
+- Preencha o template do PR: **o quê** e **por quê**, como testou (comando
+  e, se for o caso, print da conversa no Discord) e o que fica de fora.
 - Marque mudanças que exigem nova variável no `.env` ou nova dependência.
 - O PR precisa passar em `uv run pytest -q`.
 

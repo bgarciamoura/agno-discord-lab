@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔒 Reportar uma vulnerabilidade
+    url: https://github.com/bgarciamoura/agno-discord-lab/security/advisories/new
+    about: Problemas de segurança (vazamento de token, path traversal, prompt injection) devem ser reportados em privado. Veja SECURITY.md.
+  - name: 💬 Dúvidas e ideias
+    url: https://github.com/bgarciamoura/agno-discord-lab/discussions
+    about: Perguntas sobre uso, configuração ou a disciplina. Abra uma discussão em vez de uma issue.

@@ -11,6 +11,7 @@ e o projeto adota o [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 - Guia de contribuição (`CONTRIBUTING.md`).
 - Código de conduta (`CODE_OF_CONDUCT.md`), baseado no Contributor Covenant 2.1.
 - Política de segurança (`SECURITY.md`) com canal de reporte, modelo de ameaças e boas práticas.
+- Templates de issue (bug, funcionalidade) e de pull request em `.github/`.
 
 ### Planejado
 - Agente Revisor (QA) que valida o entregável antes de mover o card para DONE

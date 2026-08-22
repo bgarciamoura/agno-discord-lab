@@ -1,0 +1,55 @@
+name: ✨ Sugestão de funcionalidade
+description: Proponha uma melhoria ou um novo recurso
+title: "[feat]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Antes de abrir, confira o [roadmap no README](../blob/main/README.md#-roadmap) e a seção *Unreleased* do [CHANGELOG](../blob/main/CHANGELOG.md).
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema que a ideia resolve
+      description: Descreva a dor antes da solução. O que hoje é difícil, lento ou impossível?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solução proposta
+      description: Como você imagina que funcione. Exemplos de mensagem ao bot e resposta esperada ajudam muito.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Área
+      multiple: true
+      options:
+        - Novo agente
+        - Nova ferramenta (tool)
+        - Bot Discord (comandos, feedback, anexos)
+        - Voz
+        - Imagem
+        - Trello
+        - Memória / sessão
+        - Testes / infraestrutura
+        - Documentação
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas consideradas
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impacto
+      description: Precisa de nova variável no `.env`, nova dependência ou serviço pago? Afeta custo/latência no Groq?
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribuição
+      options:
+        - label: Posso implementar essa funcionalidade e abrir um pull request
