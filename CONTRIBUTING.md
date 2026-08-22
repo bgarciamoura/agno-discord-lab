@@ -147,5 +147,6 @@ Exemplos: `feat(agents): adiciona agente revisor`, `fix(tools): trata lista inex
 ## Segurança
 
 Encontrou uma vulnerabilidade (ex.: vazamento de token, execução de arquivo
-não permitido)? **Não abra uma issue pública.** Envie uma mensagem direta ao
-mantenedor pelo GitHub descrevendo o problema e os passos para reproduzir.
+não permitido)? **Não abra uma issue pública.** Siga a
+[política de segurança](SECURITY.md), que descreve o canal de reporte, o
+prazo de resposta e o modelo de ameaças do projeto.
