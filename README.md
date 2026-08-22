@@ -10,6 +10,7 @@
 [![Groq](https://img.shields.io/badge/LLM-Groq-f55036)](https://console.groq.com)
 [![uv](https://img.shields.io/badge/package%20manager-uv-DE5FE9)](https://docs.astral.sh/uv/)
 [![tests](https://img.shields.io/badge/tests-pytest-0A9EDC?logo=pytest&logoColor=white)](#-testes)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 Projeto da disciplina **IA Generativa & Engenharia de Prompt** (aula 004).
 
@@ -236,4 +237,4 @@ Use commits no padrão [Conventional Commits](https://www.conventionalcommits.or
 
 ## 📄 Licença
 
-Projeto acadêmico, livre para estudo e adaptação.
+Distribuído sob a licença MIT. Veja [`LICENSE`](LICENSE) para mais detalhes.
